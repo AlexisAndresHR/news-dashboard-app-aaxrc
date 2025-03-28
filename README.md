@@ -1,3 +1,28 @@
+# News Demo App | AA x RC
+
+### Rendering kind explanation
+I used **SSR** in 90% of the pages/components of this demo app considering to have a best perfomance and shorter loading times, since all the work is made by the server, that has always better connectivity compared with the users.
+Only in one component (modal window) I used **CSR**, this because is recommended when we need to manage user interaction in the UI.
+
+### What I did to improve performance?
+- Use of Next.js Image component that by default provides images lazy-loading.
+- Use of App Router features such as Link components, preventing the complete UI reload when the url PATH changes.
+
+### Libraries explanation
+- React.js: as expected, to make reusable components and use its basic hooks to an easily functionality.
+- Fetch API: since is the native JavaScript API library for asyncronous data fetching, and nsize of the project doesn't requires a most powerfull library.
+- Tailwind CSS: taking advantage of already defined classes to write less code and having a very good load performance.
+
+### Screenshots
+...
+
+### Vercel deplyed app URL
+...
+
+****
+
+## General info
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
