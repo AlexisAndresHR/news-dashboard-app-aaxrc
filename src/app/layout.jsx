@@ -10,6 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* Page title/header */}
+        <h1 className="text-3xl font-bold text-center bg-emerald-800 text-white shadow-lg h-25 pt-7">News Demo App</h1>
         {children}
       </body>
     </html>
