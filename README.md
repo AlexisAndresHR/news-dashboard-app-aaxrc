@@ -14,7 +14,20 @@ Only in one component (modal window) I used **CSR**, this because is recommended
 - Tailwind CSS: taking advantage of already defined classes to write less code and having a very good load performance.
 
 ### Screenshots
-...
+Desktop:
+________
+![home desktop view](public/image.png)
+![modal desktop view](public/image-6.png)
+
+Tablet:
+________
+![home tablet view](public/image-2.png)
+![modal tablet view](public/image-3.png)
+
+Mobile:
+________
+![home mobile view](public/image-4.png)
+![modal mobile view](public/image-5.png)
 
 ### Vercel deplyed app URL
 ...
